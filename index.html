@@ -53,9 +53,9 @@
 
     <h3>unordered inline list</h3>
     <ul class="list-non-bullet">
-        <li class="list-item-bullet">Item one</li>
-        <li class="list-item-bullet">Item two</li>
-        <li class="list-item-bullet">Item three</li>
+        <li class="list-item-inline">Item one</li>
+        <li class="list-item-inline">Item two</li>
+        <li class="list-item-inline">Item three</li>
     </ul>
 
     <h3>reverse ordered list</h3>
@@ -68,17 +68,17 @@
     <hr>
 
     <h2>@nav</h2>
-    <nav>
-        <div>Portfolio</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
+    <nav class="navigation container">
+        <div class="nav-head">Portfolio</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="project.html">Projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="project.html">Projects</a>
             </li>
-            <li>
-                <a href="/">about</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">About</a>
             </li>
         </ul>
     </nav>
@@ -86,33 +86,43 @@
     <hr>
 
     <h2>header</h2>
-    <header>
-        <img src="images/undraw_Powerful1.png" alt="" />
-        <h1>Heading inside hero</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/undraw_Powerful1.png" alt="" />
+        <h1 class="hero-heading">Heading inside hero</h1>
     </header>
 
     <hr>
 
     <h2>@section</h2>
-    <section>
-        <h3>white section</h3>
-        <p>This will have white background.</p>
+    <section class="section">
+        <div class="container container-center">
+            <h3>white section</h3>
+            <p>This will have white background.</p>
+        </div>
     </section>
 
-    <section>
-        <h3>off white section</h3>
-        <p>This will have grey bachground.</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h3>off white section</h3>
+            <p>This will have grey bachground.</p>
+        </div>
     </section>
 
     <hr>
-    
+
     <h2>@footer</h2>
-    <footer>
-        <div>Some small heading inside footer.</div>
-        <ul>
-            <li>social1</li>
-            <li>social2</li>
-            <li>social3</li>
+    <footer class="footer">
+        <div class="footer-header">Some small heading inside footer.</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">LinkedIn</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">GitHub</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Twitter</a>
+            </li>
         </ul>
     </footer>
 
