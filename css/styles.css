@@ -6,6 +6,10 @@ body{
 
 }
 
+hr{
+    margin: 2rem 0rem;
+}
+
 /* container */
 
 .container{
@@ -33,3 +37,12 @@ body{
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }    
+
+/* lists */
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-bullet{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
