@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    margin: 0px;
 }
 
 hr{
@@ -81,6 +81,7 @@ hr{
     margin: auto;
 }
 .hero .hero-heading{
+    text-align: center;
     padding-top: 1rem;
     color: var(--dark-grey);
 }
@@ -109,4 +110,7 @@ hr{
 }
 .footer .link{
     color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
